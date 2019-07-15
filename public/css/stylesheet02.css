@@ -1,0 +1,90 @@
+body {
+    background-color: firebrick;
+}
+
+.b-white
+{
+    background-color: white;
+}
+
+.white
+{
+    color: white
+}
+
+.red
+{
+    color: firebrick;
+}
+
+.block {
+    padding: 10px;
+}
+
+
+.right{
+    float: right;
+}
+
+.list {
+    width: 25%;
+}
+
+.content
+{
+    width: 75%;
+}
+
+.list
+{
+    float:right;
+    width: 25%;
+}
+
+.list ul li a
+{
+    color: firebrick;
+}
+
+table {
+    border-collapse: collapse;
+    width:100%;
+}
+
+th {
+    background-color: forestgreen;
+}
+
+td, th, table{
+    padding: 20px;
+
+}
+
+tr:nth-child(even){
+    background-color: #f4f4f4;
+}
+
+.list ul li a{
+    display: block;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    border-radius:  10px;
+    background-color: firebrick;
+    text-align: center;
+    margin: 10px;
+}
+
+.list ul li {
+    list-style-type: none;
+}
+
+.list ul li a:hover {
+    background-color: white;
+    border: solid 1px firebrick;
+}
+
+.content p a{
+    text-decoration: none;
+    color: firebrick;
+}

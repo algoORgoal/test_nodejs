@@ -1,0 +1,59 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.topnav a {
+    display: inline-block;
+    /*
+inline-block
+compared to inline: can set a width and height of the element.
+top and bottom paddings/margins are respected.
+
+compared to block: does not include line block, can set next to the previous element.
+*/
+    width: 175px;
+    height: 60px;
+    padding: 0px;
+    border: 0px;
+    background-color: gray;
+    margin: 1%;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+
+}
+
+.topnav a:hover {
+    background-color: lightgreen;
+}
+
+.green {
+    color: lightgreen;
+}
+
+
+.link a {
+    text-decoration: none;
+    color: black
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: lightgreen;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+th,
+td {
+    border: solid 1px gainsboro;
+    height: 40px;
+}
