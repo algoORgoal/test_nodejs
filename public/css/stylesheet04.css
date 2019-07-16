@@ -1,11 +1,72 @@
+* {
+    color: lightgreen;
+    font-family: 'B612', sans-serif;
+}
+
 body {
     background-color: black;
 }
 
-.b-green {
+.list {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.list a{
+    line-height: 3em;
+    text-decoration: none;
+}
+.text a {
+    color: white;
+}
+
+.text .content {
+    line-height: 1.5em;
+}
+
+.customers th {
+    color: white;
     background-color: lightgreen;
 }
 
-.green {
-    color: lightgreen;
+.customers {
+    width: 100%;
+
+}
+.customers, th, td {
+    height: 50px;
+    border: solid 1px white;
+}
+
+.customers{
+    border-collapse: collapse;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.side-bar {
+    width: 30%;
+    display: inline-block;
+    height: 100%;
+    border: solid 1px white;
+    color: white;
+    border-radius: 1em;
+    margin-left: 50%;
+    vertical-align:  top;
+}
+
+.side-bar a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.white {
+    color: white;
 }
